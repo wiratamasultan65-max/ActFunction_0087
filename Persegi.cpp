@@ -1,16 +1,23 @@
 //Library
 #include <iostream>
 using namespace std;
+
 //Deklarasi Global
-    float p, l;
+float p, l;
 
 //Implementasi Prosedur & Fungsi
 void input (){
     cout << "Masukkan Panjang : ";
     cin >> p;
-    cout << "Masukkan Lebar   : ";
+    cout << "Masukkan Lebar : ";
     cin >> l;
+
+    // Validasi input sederhana
+    if (p <= 0 || l <= 0) {
+        cout << "Input harus lebih dari nol!" << endl;
+    }
 }
+
 //Berparameter
 float LuasPersegi(float x, float y){
     return x * y;
@@ -31,5 +38,5 @@ int main()
     Output();
     cout << "Hasil Penjumlahan = " << Jumlah(5, 6, 9);
 }//selesai
-// Program menghitung luas 
-// Program menghitung luas persegi panjang menggunakan fungsi
+
+// Program menghitung luas
