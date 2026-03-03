@@ -8,7 +8,7 @@ using namespace std;
 void input (){
     cout << "Masukkan Panjang : ";
     cin >> p;
-    cout << "Masukkan Lebar : ";
+    cout << "Masukkan Lebar   : ";
     cin >> l;
 }
 //Berparameter
@@ -32,3 +32,4 @@ int main()
     cout << "Hasil Penjumlahan = " << Jumlah(5, 6, 9);
 }//selesai
 // Program menghitung luas 
+// Program menghitung luas persegi panjang menggunakan fungsi
