@@ -1,28 +1,29 @@
-//Library
+// Library
 #include <iostream>
 using namespace std;
 
-//Deklarasi Global
-    float p, l;
+// Deklarasi Global
+float p, l;
 
-//Implementasi Prosedur & Fungsi
-void input (){\
+// Implementasi Prosedur & Fungsi
+void input() {
     cout << "Masukkan Panjang : ";
     cin >> p;
-    cout << "Masukkan Lebar : ";
+    cout << "Masukkan Lebar   : ";
     cin >> l;
 }
 
-float LuasPersegi(){
+float LuasPersegi() {
     return p * l;
 }
 
-void Output(){
-    cout << "Hasilnya = " << LuasPersegi();
+void Output() {
+    cout << "Hasilnya = " << LuasPersegi() << endl;
 }
-//Program Utama
-int main()
-{//start
+
+// Program Utama
+int main() { // start
     input();
     Output();
-}//selesai
+    return 0;
+} // selesai
