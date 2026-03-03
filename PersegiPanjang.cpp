@@ -5,7 +5,7 @@ using namespace std;
 // Deklarasi Global
 float p, l;
 
-// Implementasi Prosedur & Fungsi
+// Prosedur input
 void input() {
     cout << "Masukkan Panjang : ";
     cin >> p;
@@ -13,17 +13,19 @@ void input() {
     cin >> l;
 }
 
-float LuasPersegi() {
+// Fungsi menghitung luas persegi panjang
+float LuasPersegiPanjang() {
     return p * l;
 }
 
+// Prosedur output
 void Output() {
-    cout << "Hasilnya = " << LuasPersegi() << endl;
+    cout << "Hasil Luas = " << LuasPersegiPanjang() << endl;
 }
 
 // Program Utama
-int main() { // start
+int main() {
     input();
     Output();
     return 0;
-} // selesai
+}
