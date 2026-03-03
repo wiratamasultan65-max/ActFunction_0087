@@ -27,5 +27,6 @@ void Output() {
 int main() {
     input();
     Output();
-    return 0;
+    return 0; 
 }
+//Selesai
